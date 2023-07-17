@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-* main - Aprogram that will assign a random number to the variable n
-/* betty style doc for function main goes there */
+/**
+ * main - A program that prints a number n is positive or negative
+ *Return: Always (0) success
+*/
 int main(void)
 {
 int n;
