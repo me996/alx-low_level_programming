@@ -1,11 +1,10 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
  * main - A program tha prints _putchar
  * Return: Always 0 success
  */
 
-int _putchar(char c)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
