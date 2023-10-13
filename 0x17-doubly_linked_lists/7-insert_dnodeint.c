@@ -1,8 +1,7 @@
 #include "lists.h"
 
-/*
- * insert_dnodeint_at_index - Inserts a new node in a dlistint_t
- *                            list at a given position.
+/**
+ * insert_dnodeint_at_index - Inserts a new node in a dlistint_t list at a given position.
  * @h: A pointer to the head of the dlistint_t list.
  * @idx: The position to insert the new node.
  * @n: The integer for the new node to contain.
@@ -24,7 +23,7 @@ return (NULL);
 if (tmp->next == NULL)
 return (add_dnodeint_end(h, n));
 new = malloc(sizeof(dlistint_t));
-if (new == NULL)
+ if (new == NULL)
 return (NULL);
 new->n = n;
 new->prev = tmp;
