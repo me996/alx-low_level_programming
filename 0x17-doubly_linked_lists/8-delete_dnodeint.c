@@ -25,7 +25,7 @@ if (tmp == *head)
 *head = tmp->next;
 if (*head != NULL)
 (*head)->prev = NULL;
- }
+}
 else
 {
 tmp->prev->next = tmp->next;
