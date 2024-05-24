@@ -1,8 +1,5 @@
 0x1C. C - Makefiles
 0. make -f 0-Makefile
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Create your first Makefile.
 
 Requirements:
 
