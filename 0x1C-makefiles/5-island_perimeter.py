@@ -4,8 +4,8 @@
 
 def island_perimeter(grid):
     """ a function that returns the perimeter of the island described in grid
-   0 represents a water zone
-   1 represents a land zone
+        0 represents a water zone
+        1 represents a land zone
     """
     width = len(grid[0])
     height = len(grid)
