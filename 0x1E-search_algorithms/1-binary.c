@@ -31,6 +31,7 @@ printf("%d", array[i]);
 printf("\n");
 if (array[mid] == value)
 {
+printf("Found %d at index: %d\n", value,mid);
 return (mid);
 }
 else if (array[mid] == value)
