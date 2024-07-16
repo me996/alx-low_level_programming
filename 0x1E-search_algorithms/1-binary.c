@@ -22,9 +22,9 @@ while (left <= right)
 {
 mid = left + (right - left) / 2;
 printf("seraching in array: ");
-for (i = (int)left; i <= (int)right; ++i)
+for (i = left; i <= right; ++i)
 {
-if ((int)i > left)
+if (i > left)
 printf(", ");
 printf("%d", array[i]);
 }
