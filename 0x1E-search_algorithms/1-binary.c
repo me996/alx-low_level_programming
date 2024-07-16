@@ -36,4 +36,3 @@ printf("seraching in array: array[]\n");
 }
 return (-1);
 }
-
