@@ -18,7 +18,7 @@ return (-1);
 }
 for (i = 0; i < size; i++)
 {
-printf("comparing %d to %d\n", array[i], value);
+printf("Value checked array[%d] = [%d]\n", array[i], value);
 if (array[i] == value)
 {
 return (i);
